@@ -18,5 +18,5 @@ from django.conf.urls import include, url
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^cse/',include('cse.urls')),
+    url(r'^cse/', include('cse.urls')),
 ]
